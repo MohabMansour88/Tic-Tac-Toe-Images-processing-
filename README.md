@@ -1,6 +1,4 @@
 # Tic-Tac-Toe-Images-processing
-# Deterministic Spatial Parsing and Classification via Classical Computer Vision
-
 This repository contains a zero-latency, classical computer vision pipeline built entirely in OpenCV and Python. It is designed to ingest hand-drawn whiteboard images of Tic-Tac-Toe boards, structurally isolate the grid, filter geometric anomalies, classify the symbols ('X' vs 'O'), and map them to a discrete 2D spatial grid.
 
 ## Project Motivation

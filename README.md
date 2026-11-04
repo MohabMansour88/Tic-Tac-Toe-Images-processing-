@@ -96,7 +96,7 @@ Fill in your final numbers after running the notebook.
 
 ```python
 IMAGES_DIR  = "/content/dataset/images"
-LABELS_FILE = "/content/dataset/labels.csv"
+LABELS_FILE = "/content/dataset/GT.json"
 OUTPUT_DIR  = "/content/output"
 LABEL_IMG_COL = "image_name"
 LABEL_X_COL   = "X_positions"

@@ -2,9 +2,7 @@
 
 Digital Image Processing project. The program finds the **Xs** and **Os** on a hand-drawn tic-tac-toe board (marker on a whiteboard) in every image of the dataset, circles them (**Xs in red, Os in green**), reports their cell positions, and evaluates the result against the ground-truth labels using RMSE.
 
-- **Author:** <Your Name>
-- **Registration No.:** <Your Registration Number>
-- **Course:** Digital Image Processing
+Framework : Google Colab
 
 ## Task
 
@@ -42,13 +40,12 @@ Add your own screenshots to a `docs/` folder and link them here.
 
 ```
 .
-├── tictactoe_detection.ipynb   # Notebook (code cells + markdown description for each)
-├── tictactoe_detection.py      # Same code exported as a script
-├── dataset/
+├── code.ipynb   # Notebook (code cells + markdown description for each)
+├── dataset_images_XO.zip/
 │   ├── images/                 # 64 input images
-│   └── labels.csv              # ground-truth labels
-├── output/                     # annotated images + results_table.csv
-├── report/                     # PDF report
+|
+│── GT.json                     # data labels
+├── output.zip/                 # annotated images + results_table.csv
 └── README.md
 ```
 

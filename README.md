@@ -2,8 +2,6 @@
 
 Digital Image Processing project. The program finds the **Xs** and **Os** on a hand-drawn tic-tac-toe board (marker on a whiteboard) in every image of the dataset, circles them (**Xs in red, Os in green**), reports their cell positions, and evaluates the result against the ground-truth labels using RMSE.
 
-Framework : Google Colab
-
 ## Task
 
 Using OpenCV, find the Xs and Os in all 64 images of the dataset. For each image:
@@ -128,6 +126,7 @@ python tictactoe_detection.py
 
 - Python 3.8+
 - opencv-python, numpy, pandas, matplotlib
+- Google Colab
 
 ## Notes and limitations
 
